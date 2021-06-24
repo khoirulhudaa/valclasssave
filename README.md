@@ -1,6 +1,6 @@
 # valclasssave
 
-Download valclass melalui website dokumentasi resmi Valclass. (https://valclass-dev-v1.vercel.app)
+Download valclass melalui website dokumentasi resmi Valclass. (https://valclassui-v1.vercel.app)
 Sedang tahap pengembangan sehingga mungkin masih ada beberapa kekurangan atau bug yang tak diduga.
 Tapi tidak disalahkan jika tetap ingin menggunakannya, karena valclass sudah melakukan pengujian fitur dan class sebelumnya yang dilakukan langsung
 oleh developer. Valclass juga sedang membuat beberapa fitur dan component baru lainnya.
