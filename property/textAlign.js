@@ -1,1 +1,23 @@
-let propertiesTextAlign=["v-text-center","v-text-left","v-text-right","v-text-jsutify"],valuesTextAlign=["text-align: center;","text-align: left;","text-align: right;","text-align: justify;"];for(var i=0;i<=propertiesTextAlign.length;i++)if(document.querySelector(`.${propertiesTextAlign[i]}`)&&!document.querySelector("style").innerText.includes(propertiesTextAlign[i])){let e=` \n                    .${propertiesTextAlign[i]} { \n                    ${valuesTextAlign[i]}\n                }`;document.getElementsByTagName("style")[0].appendChild(document.createTextNode(e))}
+let propertiesTextAlign = [
+    'v-text-center',
+    'v-text-left',
+    'v-text-right',
+    'v-text-jsutify'
+]
+let valuesTextAlign = [
+    'text-align: center;',
+    'text-align: left;',
+    'text-align: right;',
+    'text-align: justify;'
+]
+for (var i = 0; i <= propertiesTextAlign.length; i++) {
+    if (document.querySelector(`.${propertiesTextAlign[i]}`) && !document.querySelector('style').innerText.includes(propertiesTextAlign[i])) {
+        let styles = ` 
+            @media screen and (min-width: 900px){
+                    .${propertiesTextAlign[i]} { 
+                    ${valuesTextAlign[i]}
+                }
+            }`;
+        document.getElementsByTagName('style')[0].appendChild(document.createTextNode(styles));
+    }
+}
