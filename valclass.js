@@ -236,7 +236,7 @@ if(document.querySelector("body").classList.contains("mode")) {
     body.appendChild(script)
 }
 
-if(document.querySelector("body").classList.contains("text-decoration")) {
+if(document.querySelector("body").classList.contains("decoration")) {
     js = "./property/decoration.js";
 
     script = document.createElement("script")
