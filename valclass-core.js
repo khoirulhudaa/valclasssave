@@ -345,342 +345,342 @@ let vallclass = {
 // daftar nama class dan nama items 
 // yang akan di gunakan oleh class itu sendiri
 let utility = {
-	"v-d": "display",
-	"v-items": "alignItems",
-    "v-box": "boxSizing",
-    "v-float": "floats",
-    "v-overflow": "overflow",
-    "v-overflowX": "overflowX",
-    "v-overflowY": "overflowY",
-    "v-pst": "position",
-    "v-t": "top",
-    "v-l": "left",
-    "v-r": "right",
-    "v-b": "bottom",
-    "v-index": "index",
-    "v-visibility": "visibility",
-    "v-flex": "flex",
-    "v-direction": "direction",
-    "v-wrap": "wrap",
-    "v-shrink": "shrink",
-    "v-basis": "basis",
-    "v-justify": "justify",
-    "v-just-items": "justItems", 
-    "v-just-self": "justSelf", 
-    "v-content": "alignContent", 
-    "v-items": "alignItems", 
-    "v-self": "alignSelf", 
-    "v-p": "padding", 
-    "v-pt": "paddingTop", 
-    "v-pl": "paddingLeft", 
-    "v-pr": "paddingRight", 
-    "v-pb": "paddingBottom", 
-    "v-m": "margin", 
-    "v-mt": "marginTop", 
-    "v-ml": "marginLeft", 
-    "v-mr": "marginRight", 
-    "v-mb": "marginBottom", 
-    "v-w": "width", 
-    "v-h": "height", 
-    "v-font-sz": "fontSize", 
-    "v-font-style": "fontStyle", 
-    "v-weight": "fontWeight", 
-    "v-let-spacing": "letterSpacing", 
-    "v-leading": "lineHeight", 
-    "v-text": "textAlign", 
-    "v-color": "textColor", 
-    "v-decoration": "decoration", 
-    "v-text-transform": "textTransform", 
-    "v-break": "wordBreak", 
-    "v-attachment": "bgAttachment", 
-    "v-bg-clip": "bgClip", 
-    "v-bg": "bgColor", 
-    "v-bg-post": "bgPosition", 
-    "v-bg-rpt": "bgRepeat", 
-    "v-bg-sz": "bgSize", 
-    "v-border": "border", 
-    "v-border-t": "borderTop", 
-    "v-border-l": "borderLeft", 
-    "v-border-r": "borderRight", 
-    "v-border-b": "borderBottom", 
-    "v-radius": "borderRadius", 
-    "v-style": "borderStyle", 
-    "v-border-clr": "borderColor", 
-    "v-border-type": "borderType", 
-    "v-rotate": "rotate", 
-    "v-skew": "skew", 
-    "v-scale": "scale", 
-    "v-translate": "translate", 
-    "v-translateX": "translateX", 
-    "v-translateY": "translateY", 
-    "v-translateZ": "translateZ", 
-    "v-cursor": "cursor", 
-    "v-transition": "transition", 
-    "v-o": "outline", 
-    "v-o-top": "oTop", 
-    "v-o-left": "oLeft", 
-    "v-o-right": "oRight", 
-    "v-o-bottom": "oBottom", 
-    "v-o-color": "oColor", 
-    "v-o-style": "oStyle", 
-    "v-opacity": "opacity", 
-    "v-blur": "blur", 
-    "v-grayscale": "grayscale", 
-    "v-saturate": "saturate", 
-    "v-brightness": "brightness", 
-    "v-contrast": "contrast", 
-	"mb_v-d": "display",
-	"mb_v-items": "alignItems",
-    "mb_v-box": "boxSizing",
-    "mb_v-float": "floats",
-    "mb_v-overflow": "overflow",
-    "mb_v-overflowX": "overflowX",
-    "mb_v-overflowY": "overflowY",
-    "mb_v-pst": "position",
-    "mb_v-t": "top",
-    "mb_v-l": "left",
-    "mb_v-r": "right",
-    "mb_v-b": "bottom",
-    "mb_v-index": "index",
-    "mb_v-visibility": "visibility",
-    "mb_v-flex": "flex",
-    "mb_v-direction": "direction",
-    "mb_v-wrap": "wrap",
-    "mb_v-shrink": "shrink",
-    "mb_v-basis": "basis",
-    "mb_v-justify": "justify",
-    "mb_v-just-items": "justItems", 
-    "mb_v-just-self": "justSelf", 
-    "mb_v-content": "alignContent", 
-    "mb_v-items": "alignItems", 
-    "mb_v-self": "alignSelf", 
-    "mb_v-p": "padding", 
-    "mb_v-pt": "paddingTop", 
-    "mb_v-pl": "paddingLeft", 
-    "mb_v-pr": "paddingRight", 
-    "mb_v-pb": "paddingBottom", 
-    "mb_v-m": "margin", 
-    "mb_v-mt": "marginTop", 
-    "mb_v-ml": "marginLeft", 
-    "mb_v-mr": "marginRight", 
-    "mb_v-mb": "marginBottom", 
-    "mb_v-w": "width", 
-    "mb_v-h": "height", 
-    "mb_v-font-sz": "fontSize", 
-    "mb_v-font-style": "fontStyle", 
-    "mb_v-weight": "fontWeight", 
-    "mb_v-let-spacing": "letterSpacing", 
-    "mb_v-leading": "lineHeight", 
-    "mb_v-text": "textAlign", 
-    "mb_v-color": "textColor", 
-    "mb_v-decoration": "decoration", 
-    "mb_v-text-transform": "textTransform", 
-    "mb_v-break": "wordBreak", 
-    "mb_v-attachment": "bgAttachment", 
-    "mb_v-bg-clip": "bgClip", 
-    "mb_v-bg": "bgColor", 
-    "mb_v-bg-post": "bgPosition", 
-    "mb_v-bg-rpt": "bgRepeat", 
-    "mb_v-bg-sz": "bgSize", 
-    "mb_v-border": "border", 
-    "mb_v-border-t": "borderTop", 
-    "mb_v-border-l": "borderLeft", 
-    "mb_v-border-r": "borderRight", 
-    "mb_v-border-b": "borderBottom", 
-    "mb_v-radius": "borderRadius", 
-    "mb_v-style": "borderStyle", 
-    "mb_v-border-clr": "borderColor", 
-    "mb_v-border-type": "borderType", 
-    "mb_v-rotate": "rotate", 
-    "mb_v-skew": "skew", 
-    "mb_v-scale": "scale", 
-    "mb_v-translate": "translate", 
-    "mb_v-translateX": "translateX", 
-    "mb_v-translateY": "translateY", 
-    "mb_v-translateZ": "translateZ", 
-    "mb_v-cursor": "cursor", 
-    "mb_v-transition": "transition", 
-    "mb_v-o": "outline", 
-    "mb_v-o-top": "oTop", 
-    "mb_v-o-left": "oLeft", 
-    "mb_v-o-right": "oRight", 
-    "mb_v-o-bottom": "oBottom", 
-    "mb_v-o-color": "oColor", 
-    "mb_v-o-style": "oStyle", 
-    "mb_v-opacity": "opacity", 
-    "mb_v-blur": "blur", 
-    "mb_v-grayscale": "grayscale", 
-    "mb_v-saturate": "saturate", 
-    "mb_v-brightness": "brightness", 
-    "mb_v-contrast": "contrast", 
-	"tb_v-d": "display",
-	"tb_v-items": "alignItems",
-    "tb_v-box": "boxSizing",
-    "tb_v-float": "floats",
-    "tb_v-overflow": "overflow",
-    "tb_v-overflowX": "overflowX",
-    "tb_v-overflowY": "overflowY",
-    "tb_v-pst": "position",
-    "tb_v-t": "top",
-    "tb_v-l": "left",
-    "tb_v-r": "right",
-    "tb_v-b": "bottom",
-    "tb_v-index": "index",
-    "tb_v-visibility": "visibility",
-    "tb_v-flex": "flex",
-    "tb_v-direction": "direction",
-    "tb_v-wrap": "wrap",
-    "tb_v-shrink": "shrink",
-    "tb_v-basis": "basis",
-    "tb_v-justify": "justify",
-    "tb_v-just-items": "justItems", 
-    "tb_v-just-self": "justSelf", 
-    "tb_v-content": "alignContent", 
-    "tb_v-items": "alignItems", 
-    "tb_v-self": "alignSelf", 
-    "tb_v-p": "padding", 
-    "tb_v-pt": "paddingTop", 
-    "tb_v-pl": "paddingLeft", 
-    "tb_v-pr": "paddingRight", 
-    "tb_v-pb": "paddingBottom", 
-    "tb_v-m": "margin", 
-    "tb_v-mt": "marginTop", 
-    "tb_v-ml": "marginLeft", 
-    "tb_v-mr": "marginRight", 
-    "tb_v-mb": "marginBottom", 
-    "tb_v-w": "width", 
-    "tb_v-h": "height", 
-    "tb_v-font-sz": "fontSize", 
-    "tb_v-font-style": "fontStyle", 
-    "tb_v-weight": "fontWeight", 
-    "tb_v-let-spacing": "letterSpacing", 
-    "tb_v-leading": "lineHeight", 
-    "tb_v-text": "textAlign", 
-    "tb_v-color": "textColor", 
-    "tb_v-decoration": "decoration", 
-    "tb_v-text-transform": "textTransform", 
-    "tb_v-break": "wordBreak", 
-    "tb_v-attachment": "bgAttachment", 
-    "tb_v-bg-clip": "bgClip", 
-    "tb_v-bg": "bgColor", 
-    "tb_v-bg-post": "bgPosition", 
-    "tb_v-bg-rpt": "bgRepeat", 
-    "tb_v-bg-sz": "bgSize", 
-    "tb_v-border": "border", 
-    "tb_v-border-t": "borderTop", 
-    "tb_v-border-l": "borderLeft", 
-    "tb_v-border-r": "borderRight", 
-    "tb_v-border-b": "borderBottom", 
-    "tb_v-radius": "borderRadius", 
-    "tb_v-style": "borderStyle", 
-    "tb_v-border-clr": "borderColor", 
-    "tb_v-border-type": "borderType", 
-    "tb_v-rotate": "rotate", 
-    "tb_v-skew": "skew", 
-    "tb_v-scale": "scale", 
-    "tb_v-translate": "translate", 
-    "tb_v-translateX": "translateX", 
-    "tb_v-translateY": "translateY", 
-    "tb_v-translateZ": "translateZ", 
-    "tb_v-cursor": "cursor", 
-    "tb_v-transition": "transition", 
-    "tb_v-o": "outline", 
-    "tb_v-o-top": "oTop", 
-    "tb_v-o-left": "oLeft", 
-    "tb_v-o-right": "oRight", 
-    "tb_v-o-bottom": "oBottom", 
-    "tb_v-o-color": "oColor", 
-    "tb_v-o-style": "oStyle", 
-    "tb_v-opacity": "opacity", 
-    "tb_v-blur": "blur", 
-    "tb_v-grayscale": "grayscale", 
-    "tb_v-saturate": "saturate", 
-    "tb_v-brightness": "brightness", 
-    "tb_v-contrast": "contrast", 
-	"pc_v-d": "display",
-	"pc_v-items": "alignItems",
-    "pc_v-box": "boxSizing",
-    "pc_v-float": "floats",
-    "pc_v-overflow": "overflow",
-    "pc_v-overflowX": "overflowX",
-    "pc_v-overflowY": "overflowY",
-    "pc_v-pst": "position",
-    "pc_v-t": "top",
-    "pc_v-l": "left",
-    "pc_v-r": "right",
-    "pc_v-b": "bottom",
-    "pc_v-index": "index",
-    "pc_v-visibility": "visibility",
-    "pc_v-flex": "flex",
-    "pc_v-direction": "direction",
-    "pc_v-wrap": "wrap",
-    "pc_v-shrink": "shrink",
-    "pc_v-basis": "basis",
-    "pc_v-justify": "justify",
-    "pc_v-just-items": "justItems", 
-    "pc_v-just-self": "justSelf", 
-    "pc_v-content": "alignContent", 
-    "pc_v-items": "alignItems", 
-    "pc_v-self": "alignSelf", 
-    "pc_v-p": "padding", 
-    "pc_v-pt": "paddingTop", 
-    "pc_v-pl": "paddingLeft", 
-    "pc_v-pr": "paddingRight", 
-    "pc_v-pb": "paddingBottom", 
-    "pc_v-m": "margin", 
-    "pc_v-mt": "marginTop", 
-    "pc_v-ml": "marginLeft", 
-    "pc_v-mr": "marginRight", 
-    "pc_v-mb": "marginBottom", 
-    "pc_v-w": "width", 
-    "pc_v-h": "height", 
-    "pc_v-font-sz": "fontSize", 
-    "pc_v-font-style": "fontStyle", 
-    "pc_v-weight": "fontWeight", 
-    "pc_v-let-spacing": "letterSpacing", 
-    "pc_v-leading": "lineHeight", 
-    "pc_v-text": "textAlign", 
-    "pc_v-color": "textColor", 
-    "pc_v-decoration": "decoration", 
-    "pc_v-text-transform": "textTransform", 
-    "pc_v-break": "wordBreak", 
-    "pc_v-attachment": "bgAttachment", 
-    "pc_v-bg-clip": "bgClip", 
-    "pc_v-bg": "bgColor", 
-    "pc_v-bg-post": "bgPosition", 
-    "pc_v-bg-rpt": "bgRepeat", 
-    "pc_v-bg-sz": "bgSize", 
-    "pc_v-border": "border", 
-    "pc_v-border-t": "borderTop", 
-    "pc_v-border-l": "borderLeft", 
-    "pc_v-border-r": "borderRight", 
-    "pc_v-border-b": "borderBottom", 
-    "pc_v-radius": "borderRadius", 
-    "pc_v-style": "borderStyle", 
-    "pc_v-border-clr": "borderColor", 
-    "pc_v-border-type": "borderType", 
-    "pc_v-rotate": "rotate", 
-    "pc_v-skew": "skew", 
-    "pc_v-scale": "scale", 
-    "pc_v-translate": "translate", 
-    "pc_v-translateX": "translateX", 
-    "pc_v-translateY": "translateY", 
-    "pc_v-translateZ": "translateZ", 
-    "pc_v-cursor": "cursor", 
-    "pc_v-transition": "transition", 
-    "pc_v-o": "outline", 
-    "pc_v-o-top": "oTop", 
-    "pc_v-o-left": "oLeft", 
-    "pc_v-o-right": "oRight", 
-    "pc_v-o-bottom": "oBottom", 
-    "pc_v-o-color": "oColor", 
-    "pc_v-o-style": "oStyle", 
-    "pc_v-opacity": "opacity", 
-    "pc_v-blur": "blur", 
-    "pc_v-grayscale": "grayscale", 
-    "pc_v-saturate": "saturate", 
-    "pc_v-brightness": "brightness", 
-    "pc_v-contrast": "contrast", 
+	"custom-d": "display",
+	"custom-items": "alignItems",
+    "custom-box": "boxSizing",
+    "custom-float": "floats",
+    "custom-overflow": "overflow",
+    "custom-overflowX": "overflowX",
+    "custom-overflowY": "overflowY",
+    "custom-pst": "position",
+    "custom-t": "top",
+    "custom-l": "left",
+    "custom-r": "right",
+    "custom-b": "bottom",
+    "custom-index": "index",
+    "custom-visibility": "visibility",
+    "custom-flex": "flex",
+    "custom-direction": "direction",
+    "custom-wrap": "wrap",
+    "custom-shrink": "shrink",
+    "custom-basis": "basis",
+    "custom-justify": "justify",
+    "custom-just-items": "justItems", 
+    "custom-just-self": "justSelf", 
+    "custom-content": "alignContent", 
+    "custom-items": "alignItems", 
+    "custom-self": "alignSelf", 
+    "custom-p": "padding", 
+    "custom-pt": "paddingTop", 
+    "custom-pl": "paddingLeft", 
+    "custom-pr": "paddingRight", 
+    "custom-pb": "paddingBottom", 
+    "custom-m": "margin", 
+    "custom-mt": "marginTop", 
+    "custom-ml": "marginLeft", 
+    "custom-mr": "marginRight", 
+    "custom-mb": "marginBottom", 
+    "custom-w": "width", 
+    "custom-h": "height", 
+    "custom-font-sz": "fontSize", 
+    "custom-font-style": "fontStyle", 
+    "custom-weight": "fontWeight", 
+    "custom-let-spacing": "letterSpacing", 
+    "custom-leading": "lineHeight", 
+    "custom-text": "textAlign", 
+    "custom-color": "textColor", 
+    "custom-decoration": "decoration", 
+    "custom-text-transform": "textTransform", 
+    "custom-break": "wordBreak", 
+    "custom-attachment": "bgAttachment", 
+    "custom-bg-clip": "bgClip", 
+    "custom-bg": "bgColor", 
+    "custom-bg-post": "bgPosition", 
+    "custom-bg-rpt": "bgRepeat", 
+    "custom-bg-sz": "bgSize", 
+    "custom-border": "border", 
+    "custom-border-t": "borderTop", 
+    "custom-border-l": "borderLeft", 
+    "custom-border-r": "borderRight", 
+    "custom-border-b": "borderBottom", 
+    "custom-radius": "borderRadius", 
+    "custom-style": "borderStyle", 
+    "custom-border-clr": "borderColor", 
+    "custom-border-type": "borderType", 
+    "custom-rotate": "rotate", 
+    "custom-skew": "skew", 
+    "custom-scale": "scale", 
+    "custom-translate": "translate", 
+    "custom-translateX": "translateX", 
+    "custom-translateY": "translateY", 
+    "custom-translateZ": "translateZ", 
+    "custom-cursor": "cursor", 
+    "custom-transition": "transition", 
+    "custom-o": "outline", 
+    "custom-o-top": "oTop", 
+    "custom-o-left": "oLeft", 
+    "custom-o-right": "oRight", 
+    "custom-o-bottom": "oBottom", 
+    "custom-o-color": "oColor", 
+    "custom-o-style": "oStyle", 
+    "custom-opacity": "opacity", 
+    "custom-blur": "blur", 
+    "custom-grayscale": "grayscale", 
+    "custom-saturate": "saturate", 
+    "custom-brightness": "brightness", 
+    "custom-contrast": "contrast", 
+	"mb_custom-d": "MBdisplay",
+	"mb_custom-items": "MBalignItems",
+    "mb_custom-box": "MBboxSizing",
+    "mb_custom-float": "MBfloats",
+    "mb_custom-overflow": "MBoverflow",
+    "mb_custom-overflowX": "MBoverflowX",
+    "mb_custom-overflowY": "MBoverflowY",
+    "mb_custom-pst": "MBposition",
+    "mb_custom-t": "MBtop",
+    "mb_custom-l": "MBleft",
+    "mb_custom-r": "MBright",
+    "mb_custom-b": "MBbottom",
+    "mb_custom-index": "MBindex",
+    "mb_custom-visibility": "MBvisibility",
+    "mb_custom-flex": "MBflex",
+    "mb_custom-direction": "MBdirection",
+    "mb_custom-wrap": "MBwrap",
+    "mb_custom-shrink": "MBshrink",
+    "mb_custom-basis": "MBbasis",
+    "mb_custom-justify": "MBjustify",
+    "mb_custom-just-items": "MBjustItems", 
+    "mb_custom-just-self": "MBjustSelf", 
+    "mb_custom-content": "MBalignContent", 
+    "mb_custom-items": "MBalignItems", 
+    "mb_custom-self": "MBalignSelf", 
+    "mb_custom-p": "MBpadding", 
+    "mb_custom-pt": "MBpaddingTop", 
+    "mb_custom-pl": "MBpaddingLeft", 
+    "mb_custom-pr": "MBpaddingRight", 
+    "mb_custom-pb": "MBpaddingBottom", 
+    "mb_custom-m": "MBmargin", 
+    "mb_custom-mt": "MBmarginTop", 
+    "mb_custom-ml": "MBmarginLeft", 
+    "mb_custom-mr": "MBmarginRight", 
+    "mb_custom-mb": "MBmarginBottom", 
+    "mb_custom-w": "MBwidth", 
+    "mb_custom-h": "MBheight", 
+    "mb_custom-font-sz": "MBfontSize", 
+    "mb_custom-font-style": "MBfontStyle", 
+    "mb_custom-weight": "MBfontWeight", 
+    "mb_custom-let-spacing": "MBletterSpacing", 
+    "mb_custom-leading": "MBlineHeight", 
+    "mb_custom-text": "MBtextAlign", 
+    "mb_custom-color": "MBtextColor", 
+    "mb_custom-decoration": "MBdecoration", 
+    "mb_custom-text-transform": "MBtextTransform", 
+    "mb_custom-break": "MBwordBreak", 
+    "mb_custom-attachment": "MBbgAttachment", 
+    "mb_custom-bg-clip": "MBbgClip", 
+    "mb_custom-bg": "MBbgColor", 
+    "mb_custom-bg-post": "MBbgPosition", 
+    "mb_custom-bg-rpt": "MBbgRepeat", 
+    "mb_custom-bg-sz": "MBbgSize", 
+    "mb_custom-border": "MBborder", 
+    "mb_custom-border-t": "MBborderTop", 
+    "mb_custom-border-l": "MBborderLeft", 
+    "mb_custom-border-r": "MBborderRight", 
+    "mb_custom-border-b": "MBborderBottom", 
+    "mb_custom-radius": "MBborderRadius", 
+    "mb_custom-style": "MBborderStyle", 
+    "mb_custom-border-clr": "MBborderColor", 
+    "mb_custom-border-type": "MBborderType", 
+    "mb_custom-rotate": "MBrotate", 
+    "mb_custom-skew": "MBskew", 
+    "mb_custom-scale": "MBscale", 
+    "mb_custom-translate": "MBtranslate", 
+    "mb_custom-translateX": "MBtranslateX", 
+    "mb_custom-translateY": "MBtranslateY", 
+    "mb_custom-translateZ": "MBtranslateZ", 
+    "mb_custom-cursor": "MBcursor", 
+    "mb_custom-transition": "MBtransition", 
+    "mb_custom-o": "MBoutline", 
+    "mb_custom-o-top": "MBoTop", 
+    "mb_custom-o-left": "MBoLeft", 
+    "mb_custom-o-right": "MBoRight", 
+    "mb_custom-o-bottom": "MBoBottom", 
+    "mb_custom-o-color": "MBoColor", 
+    "mb_custom-o-style": "MBoStyle", 
+    "mb_custom-opacity": "MBopacity", 
+    "mb_custom-blur": "MBblur", 
+    "mb_custom-grayscale": "MBgrayscale", 
+    "mb_custom-saturate": "MBsaturate", 
+    "mb_custom-brightness": "MBbrightness", 
+    "mb_custom-contrast": "MBcontrast", 
+	"tb_custom-d": "TBdisplay",
+	"tb_custom-items": "TBalignItems",
+    "tb_custom-box": "TBboxSizing",
+    "tb_custom-float": "TBfloats",
+    "tb_custom-overflow": "TBoverflow",
+    "tb_custom-overflowX": "TBoverflowX",
+    "tb_custom-overflowY": "TBoverflowY",
+    "tb_custom-pst": "TBposition",
+    "tb_custom-t": "TBtop",
+    "tb_custom-l": "TBleft",
+    "tb_custom-r": "TBright",
+    "tb_custom-b": "TBbottom",
+    "tb_custom-index": "TBindex",
+    "tb_custom-visibility": "TBvisibility",
+    "tb_custom-flex": "TBflex",
+    "tb_custom-direction": "TBdirection",
+    "tb_custom-wrap": "TBwrap",
+    "tb_custom-shrink": "TBshrink",
+    "tb_custom-basis": "TBbasis",
+    "tb_custom-justify": "TBjustify",
+    "tb_custom-just-items": "TBjustItems", 
+    "tb_custom-just-self": "TBjustSelf", 
+    "tb_custom-content": "TBalignContent", 
+    "tb_custom-items": "TBalignItems", 
+    "tb_custom-self": "TBalignSelf", 
+    "tb_custom-p": "TBpadding", 
+    "tb_custom-pt": "TBpaddingTop", 
+    "tb_custom-pl": "TBpaddingLeft", 
+    "tb_custom-pr": "TBpaddingRight", 
+    "tb_custom-pb": "TBpaddingBottom", 
+    "tb_custom-m": "TBmargin", 
+    "tb_custom-mt": "TBmarginTop", 
+    "tb_custom-ml": "TBmarginLeft", 
+    "tb_custom-mr": "TBmarginRight", 
+    "tb_custom-mb": "TBmarginBottom", 
+    "tb_custom-w": "TBwidth", 
+    "tb_custom-h": "TBheight", 
+    "tb_custom-font-sz": "TBfontSize", 
+    "tb_custom-font-style": "TBfontStyle", 
+    "tb_custom-weight": "TBfontWeight", 
+    "tb_custom-let-spacing": "TBletterSpacing", 
+    "tb_custom-leading": "TBlineHeight", 
+    "tb_custom-text": "TBtextAlign", 
+    "tb_custom-color": "TBtextColor", 
+    "tb_custom-decoration": "TBdecoration", 
+    "tb_custom-text-transform": "TBtextTransform", 
+    "tb_custom-break": "TBwordBreak", 
+    "tb_custom-attachment": "TBbgAttachment", 
+    "tb_custom-bg-clip": "TBbgClip", 
+    "tb_custom-bg": "TBbgColor", 
+    "tb_custom-bg-post": "TBbgPosition", 
+    "tb_custom-bg-rpt": "TBbgRepeat", 
+    "tb_custom-bg-sz": "TBbgSize", 
+    "tb_custom-border": "TBborder", 
+    "tb_custom-border-t": "TBborderTop", 
+    "tb_custom-border-l": "TBborderLeft", 
+    "tb_custom-border-r": "TBborderRight", 
+    "tb_custom-border-b": "TBborderBottom", 
+    "tb_custom-radius": "TBborderRadius", 
+    "tb_custom-style": "TBborderStyle", 
+    "tb_custom-border-clr": "TBborderColor", 
+    "tb_custom-border-type": "TBborderType", 
+    "tb_custom-rotate": "TBrotate", 
+    "tb_custom-skew": "TBskew", 
+    "tb_custom-scale": "TBscale", 
+    "tb_custom-translate": "TBtranslate", 
+    "tb_custom-translateX": "TBtranslateX", 
+    "tb_custom-translateY": "TBtranslateY", 
+    "tb_custom-translateZ": "TBtranslateZ", 
+    "tb_custom-cursor": "TBcursor", 
+    "tb_custom-transition": "TBtransition", 
+    "tb_custom-o": "TBoutline", 
+    "tb_custom-o-top": "TBoTop", 
+    "tb_custom-o-left": "TBoLeft", 
+    "tb_custom-o-right": "TBoRight", 
+    "tb_custom-o-bottom": "TBoBottom", 
+    "tb_custom-o-color": "TBoColor", 
+    "tb_custom-o-style": "TBoStyle", 
+    "tb_custom-opacity": "TBopacity", 
+    "tb_custom-blur": "TBblur", 
+    "tb_custom-grayscale": "TBgrayscale", 
+    "tb_custom-saturate": "TBsaturate", 
+    "tb_custom-brightness": "TBbrightness", 
+    "tb_custom-contrast": "TBcontrast", 
+	"pc_custom-d": "PCdisplay",
+	"pc_custom-items": "PCalignItems",
+    "pc_custom-box": "PCboxSizing",
+    "pc_custom-float": "PCfloats",
+    "pc_custom-overflow": "PCoverflow",
+    "pc_custom-overflowX": "PCoverflowX",
+    "pc_custom-overflowY": "PCoverflowY",
+    "pc_custom-pst": "PCposition",
+    "pc_custom-t": "PCtop",
+    "pc_custom-l": "PCleft",
+    "pc_custom-r": "PCright",
+    "pc_custom-b": "PCbottom",
+    "pc_custom-index": "PCindex",
+    "pc_custom-visibility": "PCvisibility",
+    "pc_custom-flex": "PCflex",
+    "pc_custom-direction": "PCdirection",
+    "pc_custom-wrap": "PCwrap",
+    "pc_custom-shrink": "PCshrink",
+    "pc_custom-basis": "PCbasis",
+    "pc_custom-justify": "PCjustify",
+    "pc_custom-just-items": "PCjustItems", 
+    "pc_custom-just-self": "PCjustSelf", 
+    "pc_custom-content": "PCalignContent", 
+    "pc_custom-items": "PCalignItems", 
+    "pc_custom-self": "PCalignSelf", 
+    "pc_custom-p": "PCpadding", 
+    "pc_custom-pt": "PCpaddingTop", 
+    "pc_custom-pl": "PCpaddingLeft", 
+    "pc_custom-pr": "PCpaddingRight", 
+    "pc_custom-pb": "PCpaddingBottom", 
+    "pc_custom-m": "PCmargin", 
+    "pc_custom-mt": "PCmarginTop", 
+    "pc_custom-ml": "PCmarginLeft", 
+    "pc_custom-mr": "PCmarginRight", 
+    "pc_custom-mb": "PCmarginBottom", 
+    "pc_custom-w": "PCwidth", 
+    "pc_custom-h": "PCheight", 
+    "pc_custom-font-sz": "PCfontSize", 
+    "pc_custom-font-style": "PCfontStyle", 
+    "pc_custom-weight": "PCfontWeight", 
+    "pc_custom-let-spacing": "PCletterSpacing", 
+    "pc_custom-leading": "PClineHeight", 
+    "pc_custom-text": "PCtextAlign", 
+    "pc_custom-color": "PCtextColor", 
+    "pc_custom-decoration": "PCdecoration", 
+    "pc_custom-text-transform": "PCtextTransform", 
+    "pc_custom-break": "PCwordBreak", 
+    "pc_custom-attachment": "PCbgAttachment", 
+    "pc_custom-bg-clip": "PCbgClip", 
+    "pc_custom-bg": "PCbgColor", 
+    "pc_custom-bg-post": "PCbgPosition", 
+    "pc_custom-bg-rpt": "PCbgRepeat", 
+    "pc_custom-bg-sz": "PCbgSize", 
+    "pc_custom-border": "PCborder", 
+    "pc_custom-border-t": "PCborderTop", 
+    "pc_custom-border-l": "PCborderLeft", 
+    "pc_custom-border-r": "PCborderRight", 
+    "pc_custom-border-b": "PCborderBottom", 
+    "pc_custom-radius": "PCborderRadius", 
+    "pc_custom-style": "PCborderStyle", 
+    "pc_custom-border-clr": "PCborderColor", 
+    "pc_custom-border-type": "PCborderType", 
+    "pc_custom-rotate": "PCrotate", 
+    "pc_custom-skew": "PCskew", 
+    "pc_custom-scale": "PCscale", 
+    "pc_custom-translate": "PCtranslate", 
+    "pc_custom-translateX": "PCtranslateX", 
+    "pc_custom-translateY": "PCtranslateY", 
+    "pc_custom-translateZ": "PCtranslateZ", 
+    "pc_custom-cursor": "PCcursor", 
+    "pc_custom-transition": "PCtransition", 
+    "pc_custom-o": "PCoutline", 
+    "pc_custom-o-top": "PCoTop", 
+    "pc_custom-o-left": "PCoLeft", 
+    "pc_custom-o-right": "PCoRight", 
+    "pc_custom-o-bottom": "PCoBottom", 
+    "pc_custom-o-color": "PCoColor", 
+    "pc_custom-o-style": "PCoStyle", 
+    "pc_custom-opacity": "PCopacity", 
+    "pc_custom-blur": "PCblur", 
+    "pc_custom-grayscale": "PCgrayscale", 
+    "pc_custom-saturate": "PCsaturate", 
+    "pc_custom-brightness": "PCbrightness", 
+    "pc_custom-contrast": "PCcontrast", 
 }
 
 // fungsi Core adalah fungsi yang berperan sebagai
@@ -759,3046 +759,3382 @@ let style_sheet = `
 	html,body{
 		margin: 0px;
 		padding: 0px;
-		width: 100%;
-		height: 100%;
 	}
+
 `;
 
 function valclass_initalization(){
 
 	// melakukan looping untuk menambahkan valclass
 	// ke dalam element style 
+	
+
 	for(let className in vallclass){
 
 		for(let _class of vallclass[className]){
-
 			if(className === "display"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-d-${_class}{
-				    display: ${_class};
-				}
+					.custom-d-${_class}{
+						display: ${_class};
+					}
 				}
 				`;				
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "alignItems"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-items-${_class}{
-				    align-items: ${_class};
-				}
+					.custom-items-${_class}{
+						align-items: ${_class};
+					}
 				}
 				`;				
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "boxSizing"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-box-${_class}{
-					box-sizing: ${_class};
-				}
+					.custom-box-${_class}{
+						box-sizing: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "floats"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-float-${_class}{
-					float: ${_class};
-				}
+					.custom-float-${_class}{
+						float: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "overflow"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-overflow-${_class}{
-					overflow: ${_class};
-				}
+					.custom-overflow-${_class}{
+						overflow: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "overflowX"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-overflowX-${_class}{
-					overflow-x: ${_class};
-				}
+					.custom-overflowX-${_class}{
+						overflow-x: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "overflowY"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-overflowY-${_class}{
-					overflow-y: ${_class};
-				}
+					.custom-overflowY-${_class}{
+						overflow-y: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "position"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-pst-${_class}{
-					position: ${_class};
-				}
+					.custom-pst-${_class}{
+						position: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "top"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-t-${_class}{
-					top: ${_class};
-				}
+					.custom-t-${_class}{
+						top: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "left"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-l-${_class}{
-					left: ${_class};
-				}
+					.custom-l-${_class}{
+						left: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "right"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-r-${_class}{
-					right: ${_class};
-				}
+					.custom-r-${_class}{
+						right: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "bottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-b-${_class}{
-					bottom: ${_class};
-				}
+					.custom-b-${_class}{
+						bottom: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "index"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-index-${_class}{
-					z-index: ${_class};
-				}
+					.custom-index-${_class}{
+						z-index: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "visibility"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-visibility-${_class}{
-					visibility: ${_class};
-				}
+					.custom-visibility-${_class}{
+						visibility: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
             if(className === "flex"){
-                style_sheet +=`
+                let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-                .v-flex-${_class}{
-                    flex: ${_class};
-                }
+					.custom-flex-${_class}{
+						flex: ${_class};
+					}
 				}
                 `;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
             }
 			if(className === "direction"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-direction-${_class}{
-					flex-direction: ${_class};
-				}
+					.custom-direction-${_class}{
+						flex-direction: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "wrap"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-wrap-${_class}{
-					flex-wrap: ${_class};
-				}
+					.custom-wrap-${_class}{
+						flex-wrap: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "shrink"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-shrink-${_class}{
-					flex-shrink: ${_class};
-				}
+					.custom-shrink-${_class}{
+						flex-shrink: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "basis"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-basis-${_class}{
-					flex-basis: ${_class};
-				}
+					.custom-basis-${_class}{
+						flex-basis: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "justify"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-justify-${_class}{
-					justify-content: ${_class};
-				}
+					.custom-justify-${_class}{
+						justify-content: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "justItems"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-just-items-${_class}{
-					justify-items: ${_class};
-				}
+					.custom-just-items-${_class}{
+						justify-items: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "justSelf"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-just-self-${_class}{
-					justify-self: ${_class};
-				}
+					.custom-just-self-${_class}{
+						justify-self: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "alignContent"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-content-${_class}{
-					align-content: ${_class};
-				}
+					.custom-content-${_class}{
+						align-content: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "alignItems"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-items-${_class}{
-					align-items: ${_class};
-				}
+					.custom-items-${_class}{
+						align-items: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "alignSelf"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-self-${_class}{
-					align-self: ${_class};
-				}
+					.custom-self-${_class}{
+						align-self: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "padding"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-p-${_class}{
-					padding: ${_class};
-				}
+					.custom-p-${_class}{
+						padding: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "paddingTop"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-pt-${_class}{
-					padding-top: ${_class};
-				}
+					.custom-pt-${_class}{
+						padding-top: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "paddingLeft"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-pl-${_class}{
-					padding-left: ${_class};
-				}
+					.custom-pl-${_class}{
+						padding-left: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "paddingRight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-pr-${_class}{
-					padding-right: ${_class};
-				}
+					.custom-pr-${_class}{
+						padding-right: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "paddingBottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-pb-${_class}{
-					padding-bottom: ${_class};
-				}
+					.custom-pb-${_class}{
+						padding-bottom: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "margin"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-m-${_class}{
-					margin: ${_class};
-				}
+					.custom-m-${_class}{
+						margin: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "marginTop"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-mt-${_class}{
-					margin-top: ${_class};
-				}
+					.custom-mt-${_class}{
+						margin-top: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "marginLeft"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-ml-${_class}{
-					margin-left: ${_class};
-				}
+					.custom-ml-${_class}{
+						margin-left: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "marginRight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-mr-${_class}{
-					margin-right: ${_class};
-				}
+					.custom-mr-${_class}{
+						margin-right: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "marginBottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-mb-${_class}{
-					margin-bottom: ${_class};
-				}
+					.custom-mb-${_class}{
+						margin-bottom: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "width"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-w-${_class}{
-					width: ${_class};
-				}
+					.custom-w-${_class}{
+						width: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "height"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-h-${_class}{
-					height: ${_class};
-				}
+					.custom-h-${_class}{
+						height: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "fontSize"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-font-sz-${_class}{
-					font-size: ${_class};
-				}
+					.custom-font-sz-${_class}{
+						font-size: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "fontStyle"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-font-style-${_class}{
-					font-style: ${_class};
-				}
+					.custom-font-style-${_class}{
+						font-style: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "fontWeight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-weight-${_class}{
-					font-weight: ${_class};
-				}
+					.custom-weight-${_class}{
+						font-weight: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "letterSpacing"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-let-spacing-${_class}{
-					letter-spacing: ${_class};
-				}
+					.custom-let-spacing-${_class}{
+						letter-spacing: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "lineHeight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-leading-${_class}{
-					line-height: ${_class};
-				}
+					.custom-leading-${_class}{
+						line-height: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "textAlign"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-text-${_class}{
-					text-align: ${_class};
-				}
+					.custom-text-${_class}{
+						text-align: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "textColor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-color-${_class}{
-					color: ${_class};
-				}
+					.custom-color-${_class}{
+						color: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "decoration"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-decoration-${_class}{
-					text-decoration: ${_class};
-				}
+					.custom-decoration-${_class}{
+						text-decoration: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "textTransform"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-text-transform-${_class}{
-					text-transform: ${_class};
-				}
+					.custom-text-transform-${_class}{
+						text-transform: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "wordBreak"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-break-${_class}{
-					word-break: ${_class};
-					overflow-wrap: break-word;
+					.custom-break-${_class}{
+						word-break: ${_class};
+						overflow-wrap: break-word;
+					}
 				}
-				}
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 				`;	
 			}
 			if(className === "bgAttachment"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-attachment-${_class}{
-					background-attachment: ${_class};
-				}
+					.custom-attachment-${_class}{
+						background-attachment: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "bgClip"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-bg-clip-${_class}{
-					background-clip: ${_class};
-				}
+					.custom-bg-clip-${_class}{
+						background-clip: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "bgColor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-bg-${_class}{
-					background-color: ${_class};
-				}
+					.custom-bg-${_class}{
+						background-color: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "bgPosition"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-bg-post-${_class}{
-					background-position: ${_class};
-				}
+					.custom-bg-post-${_class}{
+						background-position: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "bgRepeat"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-bg-rpt-${_class}{
-					background-repeat: ${_class};
-				}
+					.custom-bg-rpt-${_class}{
+						background-repeat: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "bgSize"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-bg-sz-${_class}{
-					background-size: ${_class};
-				}
+					.custom-bg-sz-${_class}{
+						background-size: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "border"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-border-${_class}{
-					border: ${_class};
-				}
+					.custom-border-${_class}{
+						border: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "borderTop"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-border-top-${_class}{
-					border-top: ${_class};
-				}
+					.custom-border-top-${_class}{
+						border-top: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "borderLeft"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-border-l-${_class}{
-					border-left: ${_class};
-				}
+					.custom-border-l-${_class}{
+						border-left: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "borderRight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-border-r-${_class}{
-					border-right: ${_class};
-				}
+					.custom-border-r-${_class}{
+						border-right: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "borderBottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-border-b-${_class}{
-					border-bottom: ${_class};
-				}
+					.custom-border-b-${_class}{
+						border-bottom: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "borderRadius"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-radius-${_class}{
-					border-radius: ${_class};
-				}
+					.custom-radius-${_class}{
+						border-radius: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "borderStyle"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-style-${_class}{
-					border-style: ${_class};
-				}
+					.custom-style-${_class}{
+						border-style: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "borderColor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-border-clr-${_class}{
-					border-color: ${_class};
-				}
+					.custom-border-clr-${_class}{
+						border-color: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "borderType"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-border-type-${_class}{
-					border-collapse: ${_class};
-				}
+					.custom-border-type-${_class}{
+						border-collapse: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "rotate"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-rotate-${_class}{
-					transform: rotate(${_class});
-				}
+					.custom-rotate-${_class}{
+						transform: rotate(${_class});
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "skew"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-skew-${_class}{
-					transform: skew(${_class});
-				}
+					.custom-skew-${_class}{
+						transform: skew(${_class});
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "scale"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-scale-${_class}{
-					transform: scale(${_class});
-				}
+					.custom-scale-${_class}{
+						transform: scale(${_class});
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "translate"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-translate-${_class}{
-					transform: translate(${_class});
-				}
+					.custom-translate-${_class}{
+						transform: translate(${_class});
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "translateX"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-translateX-${_class}{
-					transform: translateX(${_class});
-				}
+					.custom-translateX-${_class}{
+						transform: translateX(${_class});
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "translateY"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-translateY-${_class}{
-					transform: translateY(${_class});
-				}
+					.custom-translateY-${_class}{
+						transform: translateY(${_class});
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "translateZ"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-translateZ-${_class}{
-					transform: translateZ(${_class});
-				}
+					.custom-translateZ-${_class}{
+						transform: translateZ(${_class});
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "cursor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-cursor-${_class}{
-					cursor: ${_class};
-				}
+					.custom-cursor-${_class}{
+						cursor: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "transition"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-transition-${_class}{
-					transition: ${_class};
-				}
+					.custom-transition-${_class}{
+						transition: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "outline"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-o-${_class}{
-					outline: ${_class};
-				}
+					.custom-o-${_class}{
+						outline: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "oTop"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-o-top-${_class}{
-					outline-top: ${_class};
-				}
+					.custom-o-top-${_class}{
+						outline-top: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "oLeft"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-o-left-${_class}{
-					outline-left: ${_class};
-				}
+					.custom-o-left-${_class}{
+						outline-left: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "oRight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-o-right-${_class}{
-					outline-right: ${_class};
-				}
+					.custom-o-right-${_class}{
+						outline-right: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "oBottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-o-bottom-${_class}{
-					outline-bottom: ${_class};
-				}
+					.custom-o-bottom-${_class}{
+						outline-bottom: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "oColor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-o-color-${_class}{
-					outline-color: ${_class};
-				}
+					.custom-o-color-${_class}{
+						outline-color: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "oStyle"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-o-style-${_class}{
-					outline-style: ${_class};
-				}
+					.custom-o-style-${_class}{
+						outline-style: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "opacity"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-opacity-${_class}{
-					opacity: ${_class};
-				}
+					.custom-opacity-${_class}{
+						opacity: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "blur"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-blur-${_class}{
-					filter: blur(${_class});
-				}
+					.custom-blur-${_class}{
+						filter: blur(${_class});
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "grayscale"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-grayscale-${_class}{
-					filter: grayscale(${_class});
-				}
+					.custom-grayscale-${_class}{
+						filter: grayscale(${_class});
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "saturate"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-saturate-${_class}{
-					filter: saturate(${_class});
-				}
+					.custom-saturate-${_class}{
+						filter: saturate(${_class});
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "brightness"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-brightness-${_class}{
-					filter: brightness(${_class});
-				}
+					.custom-brightness-${_class}{
+						filter: brightness(${_class});
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "contrast"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 900px) and (max-width: 1920px) {
-				.v-contrast-${_class}{
-					filter: contrast(${_class});
-				}
+					.custom-contrast-${_class}{
+						filter: contrast(${_class});
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBdisplay"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-d-${_class}{
-				    display: ${_class};
-				}
+					.mb_custom-d-${_class}{
+						display: ${_class};
+					}
 				}
 				`;				
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBalignItems"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-items-${_class}{
-				    align-items: ${_class};
-				}
+					.mb_custom-items-${_class}{
+						align-items: ${_class};
+					}
 				}
 				`;				
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBboxSizing"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-box-${_class}{
-					box-sizing: ${_class};
-				}
+					.mb_custom-box-${_class}{
+						box-sizing: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBfloats"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-float-${_class}{
-					float: ${_class};
-				}
+					.mb_custom-float-${_class}{
+						float: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBoverflow"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-overflow-${_class}{
-					overflow: ${_class};
-				}
+					.mb_custom-overflow-${_class}{
+						overflow: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBoverflowX"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-overflowX-${_class}{
-					overflow-x: ${_class};
-				}
+					.mb_custom-overflowX-${_class}{
+						overflow-x: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBoverflowY"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-overflowY-${_class}{
-					overflow-y: ${_class};
-				}
+					.mb_custom-overflowY-${_class}{
+						overflow-y: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBposition"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-pst-${_class}{
-					position: ${_class};
-				}
+					.mb_custom-pst-${_class}{
+						position: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBtop"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-t-${_class}{
-					top: ${_class};
-				}
+					.mb_custom-t-${_class}{
+						top: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBleft"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-l-${_class}{
-					left: ${_class};
-				}
+					.mb_custom-l-${_class}{
+						left: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBright"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-r-${_class}{
-					right: ${_class};
-				}
+					.mb_custom-r-${_class}{
+						right: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBbottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-b-${_class}{
-					bottom: ${_class};
-				}
+					.mb_custom-b-${_class}{
+						bottom: ${_class};
+					}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBindex"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-index-${_class}{
-					z-index: ${_class};
-				}
+					.mb_custom-index-${_class}{
+						z-index: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBvisibility"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-visibility-${_class}{
-					visibility: ${_class};
-				}
+					.mb_custom-visibility-${_class}{
+						visibility: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
             if(className === "MBflex"){
-                style_sheet +=`
+                let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-                .mb_v-flex-${_class}{
-                    flex: ${_class};
-                }
+					.mb_custom-flex-${_class}{
+						flex: ${_class};
+					}
 				}
                 `;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
             }
 			if(className === "MBdirection"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-direction-${_class}{
-					flex-direction: ${_class};
-				}
+					.mb_custom-direction-${_class}{
+						flex-direction: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBwrap"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-wrap-${_class}{
-					flex-wrap: ${_class};
-				}
+					.mb_custom-wrap-${_class}{
+						flex-wrap: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBshrink"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-shrink-${_class}{
-					flex-shrink: ${_class};
-				}
+					.mb_custom-shrink-${_class}{
+						flex-shrink: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBbasis"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-basis-${_class}{
-					flex-basis: ${_class};
-				}
+					.mb_custom-basis-${_class}{
+						flex-basis: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBjustify"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-justify-${_class}{
-					justify-content: ${_class};
-				}
+					.mb_custom-justify-${_class}{
+						justify-content: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBjustItems"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-just-items-${_class}{
-					justify-items: ${_class};
-				}
+					.mb_custom-just-items-${_class}{
+						justify-items: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBjustSelf"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-just-self-${_class}{
-					justify-self: ${_class};
-				}
+					.mb_custom-just-self-${_class}{
+						justify-self: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBalignContent"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-content-${_class}{
-					align-content: ${_class};
-				}
+					.mb_custom-content-${_class}{
+						align-content: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBalignItems"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-items-${_class}{
-					align-items: ${_class};
-				}
+					.mb_custom-items-${_class}{
+						align-items: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBalignSelf"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-self-${_class}{
-					align-self: ${_class};
-				}
+					.mb_custom-self-${_class}{
+						align-self: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBpadding"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-p-${_class}{
-					padding: ${_class};
-				}
+					.mb_custom-p-${_class}{
+						padding: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBpaddingTop"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-pt-${_class}{
-					padding-top: ${_class};
-				}
+					.mb_custom-pt-${_class}{
+						padding-top: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBpaddingLeft"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-pl-${_class}{
-					padding-left: ${_class};
-				}
+					.mb_custom-pl-${_class}{
+						padding-left: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBpaddingRight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-pr-${_class}{
-					padding-right: ${_class};
-				}
+					.mb_custom-pr-${_class}{
+						padding-right: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBpaddingBottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-pb-${_class}{
-					padding-bottom: ${_class};
-				}
+					.mb_custom-pb-${_class}{
+						padding-bottom: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBmargin"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-m-${_class}{
-					margin: ${_class};
-				}
+					.mb_custom-m-${_class}{
+						margin: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBmarginTop"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-mt-${_class}{
-					margin-top: ${_class};
-				}
+					.mb_custom-mt-${_class}{
+						margin-top: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBmarginLeft"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-ml-${_class}{
-					margin-left: ${_class};
-				}
+					.mb_custom-ml-${_class}{
+						margin-left: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBmarginRight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-mr-${_class}{
-					margin-right: ${_class};
-				}
+					.mb_custom-mr-${_class}{
+						margin-right: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBmarginBottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-mb-${_class}{
-					margin-bottom: ${_class};
-				}
+					.mb_custom-mb-${_class}{
+						margin-bottom: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBwidth"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-w-${_class}{
-					width: ${_class};
-				}
+					.mb_custom-w-${_class}{
+						width: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBheight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-h-${_class}{
-					height: ${_class};
-				}
+					.mb_custom-h-${_class}{
+						height: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBfontSize"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-font-sz-${_class}{
-					font-size: ${_class};
-				}
+					.mb_custom-font-sz-${_class}{
+						font-size: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBfontStyle"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-font-style-${_class}{
-					font-style: ${_class};
-				}
+					.mb_custom-font-style-${_class}{
+						font-style: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBfontWeight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-weight-${_class}{
-					font-weight: ${_class};
-				}
+					.mb_custom-weight-${_class}{
+						font-weight: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBletterSpacing"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-let-spacing-${_class}{
-					letter-spacing: ${_class};
-				}
+					.mb_custom-let-spacing-${_class}{
+						letter-spacing: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBlineHeight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-leading-${_class}{
-					line-height: ${_class};
-				}
+					.mb_custom-leading-${_class}{
+						line-height: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBtextAlign"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-text-${_class}{
-					text-align: ${_class};
-				}
+					.mb_custom-text-${_class}{
+						text-align: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBtextColor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-color-${_class}{
-					color: ${_class};
-				}
+					.mb_custom-color-${_class}{
+						color: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBdecoration"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-decoration-${_class}{
-					text-decoration: ${_class};
-				}
+					.mb_custom-decoration-${_class}{
+						text-decoration: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBtextTransform"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-text-transform-${_class}{
-					text-transform: ${_class};
-				}
+					.mb_custom-text-transform-${_class}{
+						text-transform: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBwordBreak"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-break-${_class}{
-					word-break: ${_class};
-					overflow-wrap: break-word;
+					.mb_custom-break-${_class}{
+						word-break: ${_class};
+						overflow-wrap: break-word;
 				}
 				}
+					document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 				`;	
 			}
 			if(className === "MBbgAttachment"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-attachment-${_class}{
-					background-attachment: ${_class};
-				}
+					.mb_custom-attachment-${_class}{
+						background-attachment: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBbgClip"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-bg-clip-${_class}{
-					background-clip: ${_class};
-				}
+					.mb_custom-bg-clip-${_class}{
+						background-clip: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBbgColor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-bg-${_class}{
-					background-color: ${_class};
-				}
+					.mb_custom-bg-${_class}{
+						background-color: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBbgPosition"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-bg-post-${_class}{
-					background-position: ${_class};
-				}
+					.mb_custom-bg-post-${_class}{
+						background-position: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBbgRepeat"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-bg-rpt-${_class}{
-					background-repeat: ${_class};
-				}
+					.mb_custom-bg-rpt-${_class}{
+						background-repeat: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBbgSize"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-bg-sz-${_class}{
-					background-size: ${_class};
-				}
+					.mb_custom-bg-sz-${_class}{
+						background-size: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBborder"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-border-${_class}{
-					border: ${_class};
-				}
+					.mb_custom-border-${_class}{
+						border: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBborderTop"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-border-top-${_class}{
-					border-top: ${_class};
-				}
+					.mb_custom-border-top-${_class}{
+						border-top: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBborderLeft"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-border-l-${_class}{
-					border-left: ${_class};
-				}
+					.mb_custom-border-l-${_class}{
+						border-left: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBborderRight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-border-r-${_class}{
-					border-right: ${_class};
-				}
+					.mb_custom-border-r-${_class}{
+						border-right: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBborderBottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-border-b-${_class}{
-					border-bottom: ${_class};
-				}
+					.mb_custom-border-b-${_class}{
+						border-bottom: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBborderRadius"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-radius-${_class}{
-					border-radius: ${_class};
-				}
+					.mb_custom-radius-${_class}{
+						border-radius: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBborderStyle"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-style-${_class}{
-					border-style: ${_class};
-				}
+					.mb_custom-style-${_class}{
+						border-style: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBborderColor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-border-clr-${_class}{
-					border-color: ${_class};
-				}
+					.mb_custom-border-clr-${_class}{
+						border-color: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBborderType"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-border-type-${_class}{
-					border-collapse: ${_class};
-				}
+					.mb_custom-border-type-${_class}{
+						border-collapse: ${_class};
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBrotate"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-rotate-${_class}{
-					transform: rotate(${_class});
-				}
+					.mb_custom-rotate-${_class}{
+						transform: rotate(${_class});
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBskew"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-skew-${_class}{
-					transform: skew(${_class});
-				}
+					.mb_custom-skew-${_class}{
+						transform: skew(${_class});
+					}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBscale"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-scale-${_class}{
+					.mb_custom-scale-${_class}{
 					transform: scale(${_class});
 				}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBtranslate"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-translate-${_class}{
+					.mb_custom-translate-${_class}{
 					transform: translate(${_class});
 				}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBtranslateX"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-translateX-${_class}{
+					.mb_custom-translateX-${_class}{
 					transform: translateX(${_class});
 				}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBtranslateY"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-translateY-${_class}{
+					.mb_custom-translateY-${_class}{
 					transform: translateY(${_class});
 				}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBtranslateZ"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-translateZ-${_class}{
+					.mb_custom-translateZ-${_class}{
 					transform: translateZ(${_class});
 				}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBcursor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-cursor-${_class}{
+					.mb_custom-cursor-${_class}{
 					cursor: ${_class};
 				}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBtransition"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-transition-${_class}{
+					.mb_custom-transition-${_class}{
 					transition: ${_class};
 				}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBoutline"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-o-${_class}{
+					.mb_custom-o-${_class}{
 					outline: ${_class};
 				}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBoTop"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-o-top-${_class}{
+					.mb_custom-o-top-${_class}{
 					outline-top: ${_class};
 				}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBoLeft"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-o-left-${_class}{
+					.mb_custom-o-left-${_class}{
 					outline-left: ${_class};
 				}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBoRight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-o-right-${_class}{
+					.mb_custom-o-right-${_class}{
 					outline-right: ${_class};
 				}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBoBottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-o-bottom-${_class}{
+					.mb_custom-o-bottom-${_class}{
 					outline-bottom: ${_class};
 				}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBoColor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-o-color-${_class}{
+					.mb_custom-o-color-${_class}{
 					outline-color: ${_class};
 				}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBoStyle"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-o-style-${_class}{
+					.mb_custom-o-style-${_class}{
 					outline-style: ${_class};
 				}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBopacity"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-opacity-${_class}{
+					.mb_custom-opacity-${_class}{
 					opacity: ${_class};
 				}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBblur"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-blur-${_class}{
+					.mb_custom-blur-${_class}{
 					filter: blur(${_class});
 				}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBgrayscale"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-grayscale-${_class}{
+					.mb_custom-grayscale-${_class}{
 					filter: grayscale(${_class});
 				}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBsaturate"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-saturate-${_class}{
+					.mb_custom-saturate-${_class}{
 					filter: saturate(${_class});
 				}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBbrightness"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-brightness-${_class}{
+					.mb_custom-brightness-${_class}{
 					filter: brightness(${_class});
 				}
 				}
 				`;	
+			document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "MBcontrast"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 320px) and (max-width: 600px){
-				.mb_v-contrast-${_class}{
+					.mb_custom-contrast-${_class}{
 					filter: contrast(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBdisplay"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-d-${_class}{
+					.tb_custom-d-${_class}{
 				    display: ${_class};
 				}
 				}
 				`;				
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBalignItems"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-items-${_class}{
+					.tb_custom-items-${_class}{
 				    align-items: ${_class};
 				}
 				}
 				`;				
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBboxSizing"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-box-${_class}{
+					.tb_custom-box-${_class}{
 					box-sizing: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBfloats"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-float-${_class}{
+					.tb_custom-float-${_class}{
 					float: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBoverflow"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-overflow-${_class}{
+					.tb_custom-overflow-${_class}{
 					overflow: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBoverflowX"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-overflowX-${_class}{
+					.tb_custom-overflowX-${_class}{
 					overflow-x: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBoverflowY"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-overflowY-${_class}{
+					.tb_custom-overflowY-${_class}{
 					overflow-y: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBposition"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-pst-${_class}{
+					.tb_custom-pst-${_class}{
 					position: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBtop"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-t-${_class}{
+					.tb_custom-t-${_class}{
 					top: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBleft"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-l-${_class}{
+					.tb_custom-l-${_class}{
 					left: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBright"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-r-${_class}{
+					.tb_custom-r-${_class}{
 					right: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBbottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-b-${_class}{
+					.tb_custom-b-${_class}{
 					bottom: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBindex"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-index-${_class}{
+					.tb_custom-index-${_class}{
 					z-index: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBvisibility"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-visibility-${_class}{
+					.tb_custom-visibility-${_class}{
 					visibility: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
             if(className === "TBflex"){
-                style_sheet +=`
+                let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-                .tb_v-flex-${_class}{
+					.tb_custom-flex-${_class}{
                     flex: ${_class};
                 }
 				}
                 `;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
             }
 			if(className === "TBdirection"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-direction-${_class}{
+					.tb_custom-direction-${_class}{
 					flex-direction: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBwrap"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-wrap-${_class}{
+					.tb_custom-wrap-${_class}{
 					flex-wrap: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBshrink"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-shrink-${_class}{
+					.tb_custom-shrink-${_class}{
 					flex-shrink: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBbasis"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-basis-${_class}{
+					.tb_custom-basis-${_class}{
 					flex-basis: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBjustify"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-justify-${_class}{
+					.tb_custom-justify-${_class}{
 					justify-content: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBjustItems"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-just-items-${_class}{
+					.tb_custom-just-items-${_class}{
 					justify-items: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBjustSelf"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-just-self-${_class}{
+					.tb_custom-just-self-${_class}{
 					justify-self: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBalignContent"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-content-${_class}{
+					.tb_custom-content-${_class}{
 					align-content: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBalignItems"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-items-${_class}{
+					.tb_custom-items-${_class}{
 					align-items: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBalignSelf"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-self-${_class}{
+					.tb_custom-self-${_class}{
 					align-self: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBpadding"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-p-${_class}{
+					.tb_custom-p-${_class}{
 					padding: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBpaddingTop"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-pt-${_class}{
+					.tb_custom-pt-${_class}{
 					padding-top: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBpaddingLeft"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-pl-${_class}{
+					.tb_custom-pl-${_class}{
 					padding-left: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBpaddingRight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-pr-${_class}{
+					.tb_custom-pr-${_class}{
 					padding-right: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBpaddingBottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-pb-${_class}{
+					.tb_custom-pb-${_class}{
 					padding-bottom: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBmargin"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-m-${_class}{
+					.tb_custom-m-${_class}{
 					margin: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBmarginTop"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-mt-${_class}{
+					.tb_custom-mt-${_class}{
 					margin-top: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBmarginLeft"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-ml-${_class}{
+					.tb_custom-ml-${_class}{
 					margin-left: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBmarginRight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-mr-${_class}{
+					.tb_custom-mr-${_class}{
 					margin-right: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBmarginBottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-mb-${_class}{
+					.tb_custom-mb-${_class}{
 					margin-bottom: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBwidth"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-w-${_class}{
+					.tb_custom-w-${_class}{
 					width: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBheight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-h-${_class}{
+					.tb_custom-h-${_class}{
 					height: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBfontSize"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-font-sz-${_class}{
+					.tb_custom-font-sz-${_class}{
 					font-size: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBfontStyle"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-font-style-${_class}{
+					.tb_custom-font-style-${_class}{
 					font-style: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBfontWeight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-weight-${_class}{
+					.tb_custom-weight-${_class}{
 					font-weight: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBletterSpacing"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-let-spacing-${_class}{
+					.tb_custom-let-spacing-${_class}{
 					letter-spacing: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBlineHeight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-leading-${_class}{
+					.tb_custom-leading-${_class}{
 					line-height: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBtextAlign"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-text-${_class}{
+					.tb_custom-text-${_class}{
 					text-align: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBtextColor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-color-${_class}{
+					.tb_custom-color-${_class}{
 					color: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBdecoration"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-decoration-${_class}{
+					.tb_custom-decoration-${_class}{
 					text-decoration: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBtextTransform"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-text-transform-${_class}{
+					.tb_custom-text-transform-${_class}{
 					text-transform: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBwordBreak"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-break-${_class}{
+					.tb_custom-break-${_class}{
 					word-break: ${_class};
 					overflow-wrap: break-word;
 				}
 				}
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 				`;	
 			}
 			if(className === "TBbgAttachment"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-attachment-${_class}{
+					.tb_custom-attachment-${_class}{
 					background-attachment: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBbgClip"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-bg-clip-${_class}{
+					.tb_custom-bg-clip-${_class}{
 					background-clip: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBbgColor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-bg-${_class}{
+					.tb_custom-bg-${_class}{
 					background-color: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBbgPosition"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-bg-post-${_class}{
+					.tb_custom-bg-post-${_class}{
 					background-position: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBbgRepeat"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-bg-rpt-${_class}{
+					.tb_custom-bg-rpt-${_class}{
 					background-repeat: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBbgSize"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-bg-sz-${_class}{
+					.tb_custom-bg-sz-${_class}{
 					background-size: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBborder"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-border-${_class}{
+					.tb_custom-border-${_class}{
 					border: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBborderTop"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-border-top-${_class}{
+					.tb_custom-border-top-${_class}{
 					border-top: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBborderLeft"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-border-l-${_class}{
+					.tb_custom-border-l-${_class}{
 					border-left: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBborderRight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-border-r-${_class}{
+					.tb_custom-border-r-${_class}{
 					border-right: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBborderBottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-border-b-${_class}{
+					.tb_custom-border-b-${_class}{
 					border-bottom: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBborderRadius"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-radius-${_class}{
+					.tb_custom-radius-${_class}{
 					border-radius: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBborderStyle"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-style-${_class}{
+					.tb_custom-style-${_class}{
 					border-style: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBborderColor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-border-clr-${_class}{
+					.tb_custom-border-clr-${_class}{
 					border-color: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBborderType"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-border-type-${_class}{
+					.tb_custom-border-type-${_class}{
 					border-collapse: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBrotate"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-rotate-${_class}{
+					.tb_custom-rotate-${_class}{
 					transform: rotate(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBskew"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-skew-${_class}{
+					.tb_custom-skew-${_class}{
 					transform: skew(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBscale"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-scale-${_class}{
+					.tb_custom-scale-${_class}{
 					transform: scale(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBtranslate"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-translate-${_class}{
+					.tb_custom-translate-${_class}{
 					transform: translate(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBtranslateX"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-translateX-${_class}{
+					.tb_custom-translateX-${_class}{
 					transform: translateX(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBtranslateY"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-translateY-${_class}{
+					.tb_custom-translateY-${_class}{
 					transform: translateY(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBtranslateZ"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-translateZ-${_class}{
+					.tb_custom-translateZ-${_class}{
 					transform: translateZ(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBcursor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-cursor-${_class}{
+					.tb_custom-cursor-${_class}{
 					cursor: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBtransition"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-transition-${_class}{
+					.tb_custom-transition-${_class}{
 					transition: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBoutline"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-o-${_class}{
+					.tb_custom-o-${_class}{
 					outline: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBoTop"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-o-top-${_class}{
+					.tb_custom-o-top-${_class}{
 					outline-top: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBoLeft"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-o-left-${_class}{
+					.tb_custom-o-left-${_class}{
 					outline-left: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBoRight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-o-right-${_class}{
+					.tb_custom-o-right-${_class}{
 					outline-right: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBoBottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-o-bottom-${_class}{
+					.tb_custom-o-bottom-${_class}{
 					outline-bottom: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBoColor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-o-color-${_class}{
+					.tb_custom-o-color-${_class}{
 					outline-color: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBoStyle"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-o-style-${_class}{
+					.tb_custom-o-style-${_class}{
 					outline-style: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBopacity"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-opacity-${_class}{
+					.tb_custom-opacity-${_class}{
 					opacity: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBblur"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-blur-${_class}{
+					.tb_custom-blur-${_class}{
 					filter: blur(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBgrayscale"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-grayscale-${_class}{
+					.tb_custom-grayscale-${_class}{
 					filter: grayscale(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBsaturate"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-saturate-${_class}{
+					.tb_custom-saturate-${_class}{
 					filter: saturate(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBbrightness"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-brightness-${_class}{
+					.tb_custom-brightness-${_class}{
 					filter: brightness(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "TBcontrast"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 600px) and (max-width: 900px){
-				.tb_v-contrast-${_class}{
+					.tb_custom-contrast-${_class}{
 					filter: contrast(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCdisplay"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-d-${_class}{
+					.pc_custom-d-${_class}{
 				    display: ${_class};
 				}
 				}
 				`;				
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCalignItems"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-items-${_class}{
+					.pc_custom-items-${_class}{
 				    align-items: ${_class};
 				}
 				}
 				`;				
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCboxSizing"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-box-${_class}{
+					.pc_custom-box-${_class}{
 					box-sizing: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCfloats"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-float-${_class}{
+					.pc_custom-float-${_class}{
 					float: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCoverflow"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-overflow-${_class}{
+					.pc_custom-overflow-${_class}{
 					overflow: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCoverflowX"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-overflowX-${_class}{
+					.pc_custom-overflowX-${_class}{
 					overflow-x: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCoverflowY"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-overflowY-${_class}{
+					.pc_custom-overflowY-${_class}{
 					overflow-y: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCposition"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-pst-${_class}{
+					.pc_custom-pst-${_class}{
 					position: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCtop"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-t-${_class}{
+					.pc_custom-t-${_class}{
 					top: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCleft"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-l-${_class}{
+					.pc_custom-l-${_class}{
 					left: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCright"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-r-${_class}{
+					.pc_custom-r-${_class}{
 					right: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCbottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-b-${_class}{
+					.pc_custom-b-${_class}{
 					bottom: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCindex"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-index-${_class}{
+					.pc_custom-index-${_class}{
 					z-index: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCvisibility"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-visibility-${_class}{
+					.pc_custom-visibility-${_class}{
 					visibility: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
             if(className === "PCflex"){
-                style_sheet +=`
+                let style_sheet =`
 				@media screen and (min-width: 1920px){
-                .pc_v-flex-${_class}{
+					.pc_custom-flex-${_class}{
                     flex: ${_class};
                 }
 				}
                 `;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
             }
 			if(className === "PCdirection"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-direction-${_class}{
+					.pc_custom-direction-${_class}{
 					flex-direction: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCwrap"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-wrap-${_class}{
+					.pc_custom-wrap-${_class}{
 					flex-wrap: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCshrink"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-shrink-${_class}{
+					.pc_custom-shrink-${_class}{
 					flex-shrink: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCbasis"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-basis-${_class}{
+					.pc_custom-basis-${_class}{
 					flex-basis: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCjustify"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-justify-${_class}{
+					.pc_custom-justify-${_class}{
 					justify-content: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCjustItems"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-just-items-${_class}{
+					.pc_custom-just-items-${_class}{
 					justify-items: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCjustSelf"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-just-self-${_class}{
+					.pc_custom-just-self-${_class}{
 					justify-self: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCalignContent"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-content-${_class}{
+					.pc_custom-content-${_class}{
 					align-content: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCalignItems"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-items-${_class}{
+					.pc_custom-items-${_class}{
 					align-items: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCalignSelf"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-self-${_class}{
+					.pc_custom-self-${_class}{
 					align-self: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCpadding"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-p-${_class}{
+					.pc_custom-p-${_class}{
 					padding: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCpaddingTop"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-pt-${_class}{
+					.pc_custom-pt-${_class}{
 					padding-top: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCpaddingLeft"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-pl-${_class}{
+					.pc_custom-pl-${_class}{
 					padding-left: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCpaddingRight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-pr-${_class}{
+					.pc_custom-pr-${_class}{
 					padding-right: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCpaddingBottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-pb-${_class}{
+					.pc_custom-pb-${_class}{
 					padding-bottom: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCmargin"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-m-${_class}{
+					.pc_custom-m-${_class}{
 					margin: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCmarginTop"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-mt-${_class}{
+					.pc_custom-mt-${_class}{
 					margin-top: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCmarginLeft"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-ml-${_class}{
+					.pc_custom-ml-${_class}{
 					margin-left: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCmarginRight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-mr-${_class}{
+					.pc_custom-mr-${_class}{
 					margin-right: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCmarginBottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-mb-${_class}{
+					.pc_custom-mb-${_class}{
 					margin-bottom: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCwidth"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-w-${_class}{
+					.pc_custom-w-${_class}{
 					width: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCheight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-h-${_class}{
+					.pc_custom-h-${_class}{
 					height: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCfontSize"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-font-sz-${_class}{
+					.pc_custom-font-sz-${_class}{
 					font-size: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCfontStyle"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-font-style-${_class}{
+					.pc_custom-font-style-${_class}{
 					font-style: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCfontWeight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-weight-${_class}{
+					.pc_custom-weight-${_class}{
 					font-weight: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCletterSpacing"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-let-spacing-${_class}{
+					.pc_custom-let-spacing-${_class}{
 					letter-spacing: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PClineHeight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-leading-${_class}{
+					.pc_custom-leading-${_class}{
 					line-height: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCtextAlign"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-text-${_class}{
+					.pc_custom-text-${_class}{
 					text-align: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCtextColor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-color-${_class}{
+					.pc_custom-color-${_class}{
 					color: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCdecoration"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-decoration-${_class}{
+					.pc_custom-decoration-${_class}{
 					text-decoration: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCtextTransform"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-text-transform-${_class}{
+					.pc_custom-text-transform-${_class}{
 					text-transform: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCwordBreak"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-break-${_class}{
+					.pc_custom-break-${_class}{
 					word-break: ${_class};
 					overflow-wrap: break-word;
 				}
 				}
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 				`;	
 			}
 			if(className === "PCbgAttachment"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-attachment-${_class}{
+					.pc_custom-attachment-${_class}{
 					background-attachment: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCbgClip"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-bg-clip-${_class}{
+					.pc_custom-bg-clip-${_class}{
 					background-clip: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCbgColor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-bg-${_class}{
+					.pc_custom-bg-${_class}{
 					background-color: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCbgPosition"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-bg-post-${_class}{
+					.pc_custom-bg-post-${_class}{
 					background-position: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCbgRepeat"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-bg-rpt-${_class}{
+					.pc_custom-bg-rpt-${_class}{
 					background-repeat: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCbgSize"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-bg-sz-${_class}{
+					.pc_custom-bg-sz-${_class}{
 					background-size: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCborder"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-border-${_class}{
+					.pc_custom-border-${_class}{
 					border: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCborderTop"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-border-top-${_class}{
+					.pc_custom-border-top-${_class}{
 					border-top: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCborderLeft"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-border-l-${_class}{
+					.pc_custom-border-l-${_class}{
 					border-left: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCborderRight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-border-r-${_class}{
+					.pc_custom-border-r-${_class}{
 					border-right: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCborderBottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-border-b-${_class}{
+					.pc_custom-border-b-${_class}{
 					border-bottom: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCborderRadius"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-radius-${_class}{
+					.pc_custom-radius-${_class}{
 					border-radius: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCborderStyle"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-style-${_class}{
+					.pc_custom-style-${_class}{
 					border-style: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCborderColor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-border-clr-${_class}{
+					.pc_custom-border-clr-${_class}{
 					border-color: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCborderType"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-border-type-${_class}{
+					.pc_custom-border-type-${_class}{
 					border-collapse: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCrotate"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-rotate-${_class}{
+					.pc_custom-rotate-${_class}{
 					transform: rotate(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCskew"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-skew-${_class}{
+					.pc_custom-skew-${_class}{
 					transform: skew(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCscale"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-scale-${_class}{
+					.pc_custom-scale-${_class}{
 					transform: scale(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCtranslate"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-translate-${_class}{
+					.pc_custom-translate-${_class}{
 					transform: translate(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCtranslateX"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-translateX-${_class}{
+					.pc_custom-translateX-${_class}{
 					transform: translateX(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCtranslateY"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-translateY-${_class}{
+					.pc_custom-translateY-${_class}{
 					transform: translateY(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCtranslateZ"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-translateZ-${_class}{
+					.pc_custom-translateZ-${_class}{
 					transform: translateZ(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCcursor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-cursor-${_class}{
+					.pc_custom-cursor-${_class}{
 					cursor: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCtransition"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-transition-${_class}{
+					.pc_custom-transition-${_class}{
 					transition: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCoutline"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-o-${_class}{
+					.pc_custom-o-${_class}{
 					outline: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCoTop"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-o-top-${_class}{
+					.pc_custom-o-top-${_class}{
 					outline-top: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCoLeft"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-o-left-${_class}{
+					.pc_custom-o-left-${_class}{
 					outline-left: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCoRight"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-o-right-${_class}{
+					.pc_custom-o-right-${_class}{
 					outline-right: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCoBottom"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-o-bottom-${_class}{
+					.pc_custom-o-bottom-${_class}{
 					outline-bottom: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCoColor"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-o-color-${_class}{
+					.pc_custom-o-color-${_class}{
 					outline-color: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCoStyle"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-o-style-${_class}{
+					.pc_custom-o-style-${_class}{
 					outline-style: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCopacity"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-opacity-${_class}{
+					.pc_custom-opacity-${_class}{
 					opacity: ${_class};
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCblur"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-blur-${_class}{
+					.pc_custom-blur-${_class}{
 					filter: blur(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCgrayscale"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-grayscale-${_class}{
+					.pc_custom-grayscale-${_class}{
 					filter: grayscale(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCsaturate"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-saturate-${_class}{
+					.pc_custom-saturate-${_class}{
 					filter: saturate(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCbrightness"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-brightness-${_class}{
+					.pc_custom-brightness-${_class}{
 					filter: brightness(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 			if(className === "PCcontrast"){
-				style_sheet +=`
+				let style_sheet =`
 				@media screen and (min-width: 1920px){
-				.pc_v-contrast-${_class}{
+					.pc_custom-contrast-${_class}{
 					filter: contrast(${_class});
 				}
 				}
 				`;	
+				document.getElementsByTagName('style')[0].appendChild(document.createTextNode(style_sheet));
 			}
 
 		}
@@ -3811,27 +4147,6 @@ function valclass_initalization(){
 // maka lakukan inisalisasi
 // dan masukan valclass ke dalam nya
 window.onload= ()=>{
-
+	
 	valclass_initalization();
-
-	let style_ = document.head.querySelector("style");
-
-	if(style_ instanceof HTMLStyleElement){
-
-		style_.textContent = style_.textContent.replace(/\@style_sheet/igm,style_sheet);
-
-	}else{
-
-		let style = document.createElement("style");
-		style.textContent = style_sheet;
-
-		document.head.appendChild(style);
-
-	}
-
 }
-
-
-// SOURCE CODE BY ARI SUSANTO (Developer framework seleku)
-// 2021
-// V-utils-custom
